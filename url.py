@@ -235,13 +235,13 @@ def checkFavicon(url):
     except requests.exceptions.ConnectionError:
         return 0
 
-url="https://unixpapa.com/js/testover.html" 
-url2="http://www.sitekodlari.com/d1.html" 
-url3="http://chaseoip.gotdns.ch/secure/bankofamerica/661b8d66/overviewshn.php?cmd=_account-details" 
-url4="http://185.193.126.30/"
-url5="https://www.tasarimkodlama.com/wp-content/uploads/2019/08/abc.html"
-url6="https://facebook.com"
-url7="https://thepaciellogroup.github.io/AT-browser-tests/test-files/audio.html"
+url=" " 
+url2=" " 
+url3=" " 
+url4=" /"
+url5=" "
+url6=" "
+url7=" "
 
 print(domainAge(url))
 print(domainAge(url2))
